@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Instrumento_para_la_evaluación_de_objetos_de_aprendizaje nombre="LORI_ESP">
+	<indicador1 nombre="Calidad de los contenidos">
+		<caracteristicas value="Veracidad, exactitud, presentación equilibrada de ideas y nivel adecuado de detalle"/>
+		<descripcion value="El contenido no presenta errores, sesgos u omisiones que pudiera confundir o equivocar al alumnado. Los enunciados del contenido se apoyan en evidencias o argumentos lógicos. Las presentaciones enfatizan los puntos clave y las ideas más significativas con un nivel adecuado de detalle. Las diferencias culturales o relativas a grupos étnicos se representan de una manera equilibrada."/>
+		<ejemplo value="En una animación del corazón latiendo el contenido es correcto pero la omisión de información importante y relevante puede inducir al alumnado al error: la animación muestra correctamente cómo la sangre se mueve de la aurícula derecha al ventrículo derecho, y de la aurícula izquierda al ventrículo izquierdo, pero hay un error en la animación al no mostrar que la sangre que sale del ventrículo derecho y va hacia los pulmones y de éstos al ventrículo izquierdo. Algunos alumnos/as, por tanto, podrían confundirse y concluir de esta animación que la sangre va directamente del ventrículo derecho a la aurícula izquierda sin pasar por los pulmones."/>
+		<problema value="El contenido es incorrecto"/>
+		<problema value="El contenido presenta omisiones o sesgos"/>
+		<problema value="El nivel de detalle es inadecuado"/>
+		<problema value="Las presentaciones no refuerzan los puntos clave ni las ideas significativas"/>
+		<problema value="La información muestra sesgos en la representación de grupos étnicos o culturas"/>
+	</indicador1>
+	<indicador2 nombre="Adecuación de los objetivos de aprendizaje">
+		<caracteristicas value="Coherencia entre los objetivos, actividades, evaluaciones y perfil del alumnado"/>
+		<descripcion value="Se hace referencia a los objetivos de aprendizaje dentro del contenido y/o están disponibles en el archivo de metadatos. Los objetivos se adecuan al tipo de alumnado al que se dirige. Las actividades propuestas, contenidos y tipo de evaluación están alineados con los objetivos planteados. El objeto de aprendizaje por sí mismo es suficiente para que el alumnado alcance los objetivos de aprendizaje."/>
+		<ejemplo value="En un objeto de aprendizaje sobre el funcionamiento del corazón, en un cuestionario de 10 preguntas, 7 de ellas corresponden a una animación que muestra el bombeo del corazón. El alumnado difícilmente podrá responder a las otras 3 preguntas basándose exclusivamente en la animación, aun cuando de las instrucciones se infiere que no hacen falta recursos adicionales."/>
+		<problema value="Los objetivos de aprendizaje no son evidentes"/>
+		<problema value="No existe una relación entre los contenidos, las actividades y las evaluaciones"/>
+		<problema value="Los objetivos no son apropiados para el perfil de alumnado al que se dirige"/>
+	</indicador2>
+	<indicador3 nombre="Feedback (Retroalimentación) y Adaptabilidad">
+		<caracteristicas value="Contenido adaptativo o feedback en función de la respuesta de cada alumno/a y su estilo de aprendizaje"/>
+		<descripcion value="El objeto de aprendizaje posee la virtud de (a) adecuar los mensajes instruccionales o actividades en función de las necesidades específicas o las características de cada alumno/a o (b) construir, junto con el alumno/a, un aprendizaje basado en sus propias respuestas. El objeto de aprendizaje se adecua a los estilos de respuesta de un tipo o perfil de alumno/a."/>
+		<ejemplo value="Un objeto de aprendizaje sobre el bombeo del corazón presenta feedback pero no mantiene un perfil del alumno/a. Tras responder a cada pregunta de un cuestionario, el objeto de aprendizaje indica si la respuesta del alumno fue correcta o incorrecta y, si es incorrecta, indica la respuesta correcta; una vez que el alumno ha respondido todas las preguntas, ofrece una puntuación total. Aún cuando el objeto de aprendizaje no utiliza las respuestas del alumno/a en la selección de las siguientes presentaciones de contenido, sigue siendo de utilidad."/>
+		<problema value="No aporta feedback relativo a la calidad o corrección de las respuestas del alumnado"/>
+		<problema value="No mantiene un registro de las respuestas o del estilo de aprendizaje del alumno/a de cara a adaptar las siguientes presentaciones de contenido"/>
+		<problema value="No hay simulación o un conjunto de herramientas que se adapten en función de las respuestas del alumno/a"/>
+	</indicador3>
+	<indicador4 nombre="Motivación">
+		<caracteristicas value="Capacidad de motivar y generar interés en un grupo concreto de alumno/as"/>
+		<descripcion value="El objeto de aprendizaje es altamente motivador, el contenido es relevante en la vida, objetivos personales e intereses del alumnado. El objeto ofrece simulaciones basadas en la realidad, multimedia, interactividad, humor, drama y/o retos a través de juegos que estimulan el interés del alumno. Es más probable que el alumno/a muestre mayor interés por la temática después de haber trabajado con el objeto de aprendizaje."/>
+		<ejemplo value="Una animación multimedia de la anatomía del corazón va acompañada de una narración más o menos lineal. El objeto incluye un cuestionario basado en los contenidos pero la animación no incluye ninguna actividad que requiera interacción del alumno/a. El alumno/a no puede controlar o interactuar con la animación. Es probable que el alumnado no muestre variaciones en su interés por la temática después de haberla trabajado con el objeto de aprendizaje. A pesar de estas limitaciones motivacionales, el objeto aún puede ser de utilidad para el alumnado."/>
+		<problema value="El contenido no es relevante en la vida del alumnado"/>
+		<problema value="Las actividades son demasiado fáciles o demasiado difíciles para percibir el interés del alumnado"/>
+		<problema value="Las características del objeto que suponen captar el interés del alumno son una distracción que interfiere con el aprendizaje"/>
+		<problema value="El objeto no varía en el tono, no hay muestras de humor o novedad"/>
+		<problema value="La interacción del alumno/a con el objeto no presenta consecuencias interesantes"/>
+	</indicador4>
+	<indicador5 nombre="Diseño y presentación">
+		<caracteristicas value="El diseño de la información audiovisual favorece el adecuado procesamiento de la información"/>
+		<descripcion value="La calidad de la producción (ej. guía de estilo) y el diseño de la información permiten al usuario aprender de manera eficiente. La estructura visual propicia la identificación efectiva de los elementos presentes en pantalla. El texto es legible. Los gráficos y tablas se encuentran correctamente etiquetados y ordenados. Las animaciones o vídeos incluyen narración. Los distintos párrafos están encabezados por títulos significativos. La escritura es clara, concisa y sin errores. El color, la música, y diseño son estéticos y no interfieren con los objetivos deaprendizaje."/>
+		<ejemplo value="La acción de bombeo del corazón se describe claramente en el texto al lado de laanimación, pero es difícil para el alumno/a enlazar los distintos momentos de laanimación con partes del texto que la describen. A pesar de esta debilidad, elobjeto de aprendizaje puede seguir resultando útil para el alumno/a."/>
+		<problema value="La fuente seleccionada o el tamaño de la misma reduce notablemente la velocidad de lectura"/>
+		<problema value="Cierta información que es necesaria para la comprensión del objeto de aprendizaje es ilegible"/>
+		<problema value="La calidad del vídeo o audio es insuficiente para el aprendizaje"/>
+		<problema value="La selección de colores, imágenes o sonidos interfieren con los objetivos de aprendizaje"/>
+		<problema value="El diseño de la información provoca un sobreesfuerzo innecesario para el procesamiento de la misma"/>
+		<problema value="No hay suficientes encabezados o no son significativos para el alumno/a"/>
+	</indicador5>
+	<indicador6 nombre="Usabilidad">
+		<caracteristicas value="Facilidad de navegación, interfaz predictiva para el usuario y calidad de los recursos de ayuda de la interfaz"/>
+		<descripcion value="El diseño de la interfaz de usuario informa implícitamente al alumnado cómointeractuar con el objeto, o las instrucciones de uso son claras. La navegación por el objeto es fácil, intuitiva y ágil. El comportamiento de la interfaz de usuario esconsistente y predecible."/>
+		<ejemplo value="La interfaz para una animación sobre el funcionamiento del corazón es usable, pero se puede optimizar mejorando el diseño o las instrucciones. La animación tiene etiquetas que sólo aparecen cuando el usuario pasa el cursor sobre una parte etiquetada del corazón. Es difícil juzgar qué partes están etiquetadas sin colocar el cursor sobre la animación entera. A pesar de este defecto, el objeto de aprendizaje todavía puede ser útil."/>
+		<problema value="No hay posibilidad de interactividad, solo hay texto y/o imágenes estáticas"/>
+		<problema value="Varios enlaces o botones no funcionan"/>
+		<problema value="Hay una demora excesiva en la navegación"/>
+		<problema value="El funcionamiento de la interfaz no es intuitivo y tampoco hay instrucciones"/>
+		<problema value="El funcionamiento de la interfaz es inconsistente e impredecible"/>
+	</indicador6>
+	<indicador7 nombre="Accesibilidad">
+		<caracteristicas value="El diseño de los controles y la presentación de la información están adaptados para discapacitados y dispositivos móviles"/>
+		<descripcion value="El objeto de aprendizaje es accesible utilizando dispositivos de asistencia a discapacitados para usuarios con discapacidades sensoriales y motoras; también se puede acceder al objeto de aprendizaje a través de dispositivos móviles. Sigue las directrices del Consorcio IMS para las aplicaciones accesibles de aprendizaje y cumple los requerimientos del W3C sobre contenidos accesibles a nivel 'AAA'."/>
+		<ejemplo value="Un objeto de aprendizaje consiste en una página HTML con una animación queproporciona subtítulos para la locución y una descripción complementaria sobre lo que está ocurriendo en la acción. Sin embargo, el objeto falla en aclarar varias siglas y usa el formato HTML -FONT- en lugar de hacer residir las características de la fuente en una hoja de estilo (CSS). Se adecua a las directrices de accesibilidad del W3C a nivel A."/>
+		<problema value="Los videos no tienen subtítulos"/>
+		<problema value="No hay transcripciones para los archivos de audio"/>
+		<problema value="Faltan etiquetas en las imágenes"/>
+		<problema value="La comprensión de los gráficos requiere que el alumno/a pueda percibir los colores"/>
+	</indicador7>
+	<indicador8 nombre="Reusabilidad">
+		<caracteristicas value="Capacidad para usarse en distintos escenarios de aprendizaje y con alumnos/as con distintos bagajes"/>
+		<descripcion value="El objeto de aprendizaje es un recurso en sí mismo que puede transferirse inmediatamente a un curso ya diseñado, integrarse en un nuevo diseño o utilizarse en un nuevo escenario de aprendizaje. Funciona eficazmente con distintos tipos de alumno/as adaptando el contenido o añadiendo algún contenido adicional como glosarios, sumarios o conceptos previos."/>
+		<ejemplo value="Un objeto de aprendizaje que contiene un video mostrando una actuación con un desfibrador se ha diseñado como un elemento de un curso para paramédicos. Elobjeto de aprendizaje corre bien en todos los navegadores de Internet y no hacereferencia a otros componentes del curso. Sin embargo, el video hace un usoexcesivo e innecesario de términos utilizados por paramédicos. El video se puedereutilizar en otros contextos de paramédicos, pero no puede ser reutilizado porotro personal de urgencias."/>
+		<problema value="Se refiere al módulo, curso o docente para el que fue diseñado originalmente"/>
+		<problema value="Su uso depende críticamente de recursos de aprendizaje específicos y externos"/>
+		<problema value="Sólo puede ser utilizado por un grupo pequeño de alumnos/as con un nivel de conocimiento previo alto y específico"/>
+	</indicador8>
+	<indicador9 nombre="Cumplimiento de estándares">
+		<caracteristicas value="Adecuación a los estándares y especificaciones internacionales"/>
+		<descripcion value="El objeto de aprendizaje cumple con todas las directrices y estándares internacionales más conocidos. Estas incluyen los estándares IEEE Learning Object Metadata y las indicaciones técnicas desarrolladas por IMS, IEEE, SCORM y W3C (sin incluir las referentes a la accesibilidad). Los metadatos suministrados son suficientes y están disponibles tanto en el objeto de aprendizaje como en una página (archivo) disponible para el usuario."/>
+		<ejemplo value="Un objeto de aprendizaje que se encontró en un repositorio contiene 6 de los campos de metadata más comúnmente utilizados en el estándar IEEE LOM. El objeto cuenta con los requisitos básicos de metadata SCORM y las validaciones HTML del W3C, pero falla en el cumplimiento de los requisitos de SCORM relativos a la interoperabilidad y empaquetamiento."/>
+		<problema value="No se provee suficiente metadata o no está formateado de acuerdo al estándar de objetos de aprendizaje del IEEE"/>
+		<problema value="Falla todos los tests de cumplimiento de directrices del W3C y SCORM (directrices de accesibilidad no incluidas)"/>
+	</indicador9>
+</Instrumento_para_la_evaluación_de_objetos_de_aprendizaje>

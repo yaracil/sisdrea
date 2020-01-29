@@ -1,0 +1,12 @@
+#--- A dummy data file of PC numbers to test the SelectionEngine
+#--- If this were ever used in real life, it'd probably be in a DB for the
+#---   app to read from and in XML if a vendor sent emailed/ftp'ed it to us
+f=s:maker|s:model        |i:cpu|i:ram|f:hd|f:cost|f:winmark|s:video card     |f:q2 |b:cd-rw|b:dvd|b:cd|b:3.5"
+d=compaq |deskpro        | 650 | 64  |10  | 500  |   1     |ATI Rage Pro     |  4  |  n    | n   |y   | y
+D=compaq |deskpro II     | 700 | 96  |20  | 600  |   2     |ATI Rage Pro     |  4  |  n    | n   |y   | y
+D= dell  |Incindiary 2000|1130 |256  |40  |1500  |  10     |GeForce III Ultra|156  |  y    | y   |y   | y
+d=  hp   |pavillion 9200 |1130 |128  |30  |2000  |   5     |GeForce II MX    |120  |  y    |  y  |y   | y
+D=  hp   |Pavillion 9290 | 950 |128  |30  |2000  |   4     |GeForce II MX    |120  |  y    | n   |y   | y
+d=micron |millenia       |1400 |512  |70  |3500  |  10     |GeForce III Ultra|156  |  y    | y   |y   | y
+D=micron |millenia 1200  |1200 |256  |60  |3000  |  10     |GeForce III      |140  |  y    | y   |y   | y
+

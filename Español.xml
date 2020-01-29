@@ -1,0 +1,74 @@
+<lom:lom xmlns:lom="http://ltsc.ieee.org/xsd/LOM">
+ <lom:general>
+  <lom:description>
+   <lom:string language="es-ES">Descripción</lom:string>
+   <lom:string language="es">Idioma español</lom:string>
+  </lom:description>
+  <lom:title>
+   <lom:string language="es">Español</lom:string>
+  </lom:title>
+  <lom:keyword>
+   <lom:string language="es">lengua</lom:string>
+  </lom:keyword>
+  <lom:keyword>
+   <lom:string language="es">idioma</lom:string>
+  </lom:keyword>
+  <lom:structure>
+   <lom:value>networked</lom:value>
+  </lom:structure>
+  <lom:aggregationLevel>
+   <lom:value>3</lom:value>
+  </lom:aggregationLevel>
+ </lom:general>
+ <lom:lifeCycle>
+  <lom:status>
+   <lom:value>final</lom:value>
+  </lom:status>
+ </lom:lifeCycle>
+ <lom:technical>
+  <lom:otherPlatformRequirements>
+   <lom:string language="es">SO libre o privativo</lom:string>
+  </lom:otherPlatformRequirements>
+ </lom:technical>
+ <lom:educational>
+  <lom:interactivityType>
+   <lom:value>active</lom:value>
+  </lom:interactivityType>
+  <lom:learningResourceType>
+   <lom:value>exam</lom:value>
+  </lom:learningResourceType>
+  <lom:interactivityLevel>
+   <lom:value>high</lom:value>
+  </lom:interactivityLevel>
+  <lom:semanticDensity>
+   <lom:value>very high</lom:value>
+  </lom:semanticDensity>
+  <lom:context>
+   <lom:value>training</lom:value>
+  </lom:context>
+  <lom:typicalAgeRange>
+   <lom:string language="es">20-24</lom:string>
+  </lom:typicalAgeRange>
+  <lom:difficulty>
+   <lom:value>medium</lom:value>
+  </lom:difficulty>
+ </lom:educational>
+ <lom:rights>
+  <lom:cost>
+   <lom:value>no</lom:value>
+  </lom:cost>
+  <lom:copyrightAndOtherRestrictions>
+   <lom:value>no</lom:value>
+  </lom:copyrightAndOtherRestrictions>
+ </lom:rights>
+ <lom:relation>
+  <lom:kind>
+   <lom:value>isversionof</lom:value>
+  </lom:kind>
+ </lom:relation>
+ <lom:classification>
+  <lom:purpose>
+   <lom:value>idea</lom:value>
+  </lom:purpose>
+ </lom:classification>
+</lom:lom>

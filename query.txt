@@ -1,0 +1,54 @@
+#--- This is the criteria we use for selecting items
+#--- Operators:
+#---	=	!=	>	<	>=	<=
+#---	~   around; for trying to be close (+/-) to a specific number
+#---	%   prefer; for soft-matching on strings and booleans
+#---	!%  rather not; for soft-matching on strings and booleans
+#--- Values:
+#---	[MAX_VAL]  maximum numeric value in this dataset for this field
+#---	[MIN_VAL]  minimum numeric value in this dataset for this field
+#---
+#--- Format:
+#---   First field is type. Type is w for weight or c for constraint
+#---   When type = c, the format is 
+#---	type | field | operator | value
+#---   When type = c, the format is 
+#---	type | field | weight
+#---
+#--- Weight is an integer, higher is better
+#---   The weight can be any integer, but i personally use 1 to 5
+#--- Weights *only* apply to similarity measures (~, %, !%), *not*
+#---   to absolute filtering criteria (=, !=, >, <. >=, <=)
+#---
+#--- Everthing should be case insensitive
+
+#--- i don't like HP, but it's not that important
+#---   but i absolutely won't buy a Dell
+c | maker   | !% | hp
+c | maker   | != | micron
+w | maker   | 2
+
+
+#--- This is going to be a game machine, so i really want a fast video card
+c | winmark | ~  | [MAX_VAL]
+w | winmark | 5
+c | q2      | ~  | [Max_Val]
+w | q2      | 5  
+
+
+#--- i only have $3,000, so it absolutely *cannot* cost more than that
+#--- i figure $1,500 is a good price for a fast game machine
+#---   so let's try to find a machine around that price
+c | cost    | <= | 3000
+c | cost    | ~  | 1500
+w | cost    | 4
+
+
+#--- A big hard drive wouldn't be bad
+c | hd      | ~  | [MAX_VAL]
+w | hd      | 1
+
+#--- And i wouldn't mind having a DVD player
+c | dvd     | %  | y
+w | dvd     | 1
+
